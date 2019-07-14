@@ -11,6 +11,7 @@ gem 'sqlite3'
 gem 'sidekiq'
 gem 'httparty'
 gem 'nokogiri'
+gem 'sinatra'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
