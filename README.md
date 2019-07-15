@@ -5,7 +5,7 @@
 
 * Database creation: rails db:create, rails db:migrate
 
-* Services (job queues, httparty, nokogiri)
+* Services (job queues with sidekiq and activejob, httparty, nokogiri)
 
 
 Para utilizar el api:
