@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* Ruby version: 2.5.1
 
-* Ruby version
+* Database creation: rails db:create, rails db:migrate
 
-* System dependencies
+* Services (job queues, httparty, nokogiri)
 
-* Configuration
 
-* Database creation
+Para utilizar el api:
 
-* Database initialization
+● curl -X POST -d "url=https://google.com" http://localhost/url.json
+o Should return JSON with a short URL or errors
+● curl http://localhost/top.json
+o Should return JSON with the top 100 URLs
+● curl -I http://localhost/abc
+o Should show the URL that the app is redirecting you to
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
